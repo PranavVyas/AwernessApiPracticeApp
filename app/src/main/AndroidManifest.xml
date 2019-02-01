@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <meta-data
+            android:name="com.google.android.awareness.API_KEY"
+            android:value="@string/API_KEY_AWERNESS" />
+        <activity android:name=".ui.actvities.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
